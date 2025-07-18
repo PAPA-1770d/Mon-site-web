@@ -1,0 +1,130 @@
+body {background-color:hsl(86, 100%, 50%);}
+.menu{background-color: #530ee7;}
+header{background-color: #b2bfc4;
+          padding: 30px;}
+main{padding: 20px;}
+section{margin-bottom: 30px;}
+footer{background-color: antiquewhite;
+        padding: 15px 0;}
+#Promo{font-size: 15px;
+    color:red;
+    border: hsl(262, 100%, 50%);
+    margin: 0%;
+}
+    
+form{ margin: 0px;
+    border-radius: 0px;
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+label{font-weight: bold;}
+
+.div1{background-color: aliceblue;
+position: inherit;
+top: 50px;
+left: 100px;
+width: 500px;
+height: 100px;
+float: left;
+overflow:hidden;
+overflow: scroll;
+background-image: url("monimage.jpeg.jpg"), url(moi.jpeg);
+background-size: 100px;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: right; 
+/*ce qui suit c'est le gradient lineaire*/
+background: -webkit-linear-gradient(90deg,red,orange,blue);}
+  /*ce qui suit est degrade  radial*/
+
+  .dev{
+    float: right; 
+    width: 500px;
+    height: 100px;
+    background: -webkit-radial-gradient(circle,rgb(0, 119, 255),rgb(219, 218, 219),rgb(138, 243, 185));
+}
+
+/* Supprime les marges par défaut */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style de la barre de menu */
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+/* Supprime les puces et aligne horizontalement */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style des éléments du menu */
+.menu li {
+  margin: 0 15px;
+}
+
+/* Style des liens */
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+/* Effet au survol */
+.menu a:hover {
+  color: #00c3ff;
+}
+.contact {
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  padding: 10px;
+  background-color: #00c3ff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #008bb8;
+}
+td{
+  border: 1px solid blue;
+  padding: 10px;
+}
+table{border-collapse:collapse ;
+}
+.impair{background-color: #10f53e;}
+.paire1{
+  background-color: #e2fc20;
+}
+.paire2{background-color: red;}
+
+thead,tfoot{background-color: aliceblue;}
